@@ -35,11 +35,11 @@
 
     <EditText
         android:id="@+id/email"
-        android:layout_width="265dp"
-        android:layout_height="100dp"
+        android:layout_width="285dp"
+        android:layout_height="133dp"
         android:ems="10"
         android:hint="Type your questions here....."
-        android:inputType="text"
+        android:inputType="textMultiLine"
         android:textColor="@color/white"
         android:textColorHint="#61F4EDED"
 
@@ -83,8 +83,8 @@
 
     <ImageButton
         android:id="@+id/ibc"
-        android:layout_width="23dp"
-        android:layout_height="26dp"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="532dp"
         android:background="@color/white"
