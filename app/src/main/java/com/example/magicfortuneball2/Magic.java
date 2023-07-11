@@ -115,6 +115,9 @@ public class Magic extends AppCompatActivity implements
     @Override
     public void onClick(View v) {
         String emaill=emailll.getText().toString();
+             if (emaill.matches(".*[0-9].*")) {
+            Toast.makeText(getBaseContext(), "Invalid Input", Toast.LENGTH_SHORT).show();
+        } else {
         if (TextUtils.isEmpty(emaill)){
                         Toast.makeText(getBaseContext(),"Input your question", Toast.LENGTH_LONG).show();
 
@@ -138,6 +141,7 @@ public class Magic extends AppCompatActivity implements
                 
             }
         }
+    }
     }
     @Override
     public void onInit(int status) {
